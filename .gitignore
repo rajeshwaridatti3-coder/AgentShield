@@ -1,0 +1,27 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+dist/
+build/
+
+# Local databases and uploaded data
+*.db
+*.sqlite
+*.sqlite3
+uploads/
+storage/
+
+# Local configuration
+.DS_Store
+.vscode/
